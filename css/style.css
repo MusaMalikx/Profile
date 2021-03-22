@@ -1,0 +1,243 @@
+body {
+  background-color: #9fd8df;
+  margin: 0%;
+}
+
+span {
+  margin-left: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+h4 {
+  position: absolute;
+  left: 3.58rem;
+  top: 48px;
+  color: lightyellow;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: white;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.logo {
+  padding-top: 1.25rem;
+  height: 7.25rem;
+  position: absolute;
+  left: 0.75rem;
+  opacity: 0.5;
+}
+
+.location {
+  color: silver;
+}
+
+#first-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/bi.jpg");
+  background-attachment: fixed;
+  height: 500px;
+  background-position: center;
+}
+
+.fb-logo {
+  position: absolute;
+  right: 150px;
+  top: 20px;
+}
+
+.insta-logo {
+  position: absolute;
+  right: 90px;
+  top: 20px;
+}
+
+.git-logo {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.profile {
+  position: absolute;
+  left: 41.5%;
+  bottom: 80%;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid darkolivegreen;
+  border-radius: 100%;
+}
+
+#middle-section {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  border: 2px solid brown;
+  margin: 0px 2%;
+  height: 470px;
+  position: absolute;
+  width: 96%;
+  top: 55%;
+  padding-top: 120px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.Middle-align {
+  text-align: center;
+}
+
+.Middle-align h1 {
+  color: #046582;
+}
+
+.para {
+  text-align: center;
+  padding: 0px 35px;
+}
+
+#skills {
+  margin-top: 310px;
+  background-color: #487e95;
+  text-align: center;
+}
+
+#skills h1 {
+  padding: 50px;
+  color: #e4fbff;
+  font-family: "Sacramento", cursive;
+  font-size: 80px;
+}
+
+.skill-images {
+  width: 200px;
+  height: 200px;
+}
+
+.si-p {
+  color: white;
+}
+
+.carousel-item {
+  padding-bottom: 70px;
+}
+
+.contact-me {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.contact-me h1 {
+  color: #e4fbff;
+  font-family: "Montserrat", sans-serif;
+  color: #28527a;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.ctc-msg {
+  padding-bottom: 15px;
+}
+
+#education {
+  background-color: #e4fbff;
+  padding-bottom: 2%;
+}
+
+.e {
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 30px;
+  color: #28527a;
+  font-family: "Sacramento", cursive;
+  font-size: 80px;
+}
+
+.education-row {
+  text-align: center;
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.education-row img {
+  height: 80px;
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.education-row h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.education-row p {
+  text-align: center;
+}
+
+.edu {
+  height: 350px;
+  width: 400px;
+  position: absolute;
+  left: 20px;
+  bottom: 220px;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 0px;
+  background-color: #eeebdd;
+}
+
+#footer i {
+  padding: 2%;
+}
+
+#footer p {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 990px) {
+  .profile {
+    left: 128px;
+  }
+
+  #middle-section {
+    height: 550px;
+  }
+
+  #skills {
+    margin-top: 365px;
+  }
+
+  .carousel-control-next {
+    padding-right: 4%;
+  }
+
+  .education-row img {
+    margin-right: 0px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  #footer {
+    padding-top: 10px;
+  }
+}
